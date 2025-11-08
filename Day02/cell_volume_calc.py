@@ -1,4 +1,4 @@
-   """
+"""
     Calculate the volume to take from a current plate of cultured cells to reach desired confluency in a new plate.
     
     Parameters:
@@ -11,9 +11,8 @@
     Returns:
         float: Volume to take from current plate (µL)
 
-    """
+"""
 def calculate_volume(current_conf, corrent_area, desired_conf, desired_area, final_vol):
-
-  return final_vol*((desired_conf * desired_area) /(current_conf * corrent_area))
+    return final_vol*((desired_conf * desired_area) /(current_conf * corrent_area))
 
   
