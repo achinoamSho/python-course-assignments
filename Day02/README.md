@@ -1,6 +1,6 @@
 # Cell Culture Calculator
 
-I wanted to calculate how much cell suspension to transfer from one culture plate to another based on the desired confluency and plate sizes. I work a lot in the tissue culture room and thought it could make my lab mates life easier (and mine)
+I wanted to calculate how much cell suspension to transfer from one culture plate to another based on the desired confluency and plate sizes. I often work in the tissue culture room, so I made this tool to make my lab mates’ (and my own) life easier.
 
 ## Features
 - 3 input methods:
@@ -10,8 +10,11 @@ I wanted to calculate how much cell suspension to transfer from one culture plat
 
 ## Calculation
 $\text{Volume to take} = V_\text{current} \cdot \frac{C_\text{desired} \cdot A_\text{destination}}{C_\text{current} \cdot A_\text{current}}$
-###### C = Confluency (%)
-###### A = Area (cm^2)
+
+**Where:**
+- **C** = Confluency (%)
+- **A** = Area (cm²)
+- **V** = Volume (mL)
 
 ## AI 
 I used ChatGPT (GPT-5) to assist with:
