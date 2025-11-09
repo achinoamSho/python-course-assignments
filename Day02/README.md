@@ -9,9 +9,9 @@ I wanted to calculate how much cell suspension to transfer from one culture plat
   - GUI (Tkinter), also Validates user input, and includes preset plate sizes
 
 ## Calculation
-\[
-\text{Volume to take} = \frac{V_\text{current}}{(C_\text{current} \times A_\text{current}) / (C_\text{desired} \times A_\text{destination})}
-\]
+$\text{Volume to take} = V_\text{current} \cdot \frac{C_\text{desired} \cdot A_\text{destination}}{C_\text{current} \cdot A_\text{current}}$
+###### C = Confluency (%)
+###### A = Area (cm^2)
 
 ## AI 
 I used ChatGPT (GPT-5) to assist with:
