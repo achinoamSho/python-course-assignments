@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
+from tkinter import simpledialog
 from cell_volume_calc import calculate_volume
 
 # Plate info: area (cm²) and final culture volume (µL)
@@ -8,7 +9,7 @@ plates = {
     "24 well (2 cm², 500 µL)": {"area": 2, "final_vol": 500},
     "12 well (4 cm², 1000 µL)": {"area": 4, "final_vol": 1000},
     "6 well (10 cm², 2000 µL)": {"area": 10, "final_vol": 2000},
-    "10 cm (60 cm², 10000 µL)": {"area": 60, "final_vol": 10000}
+    "10 cm (60 cm², 10000 µL)": {"area": 60, "final_vol": 10000},
     "Other": {"area": None, "final_vol": None}
 }
 
