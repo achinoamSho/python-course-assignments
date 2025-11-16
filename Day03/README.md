@@ -14,9 +14,9 @@ This project calculates how much volume to take from a source plate of cultured 
 1. Clone the repository:
 ```bash
 git clone https://github.com/achinoamSho/python-course-assignments.git
-cd Day03
+cd python-course-assignments/Day03
 ```
-2. Install dependencies directly:
+2. Install dependencies:
 ```bash
 pip install pytest
 ```
@@ -37,6 +37,10 @@ python cell_volume_gui.py
 ```bash
 python cell_volume_cli.py <current_conf> <current_area> <desired_conf> <desired_area> <final_vol>
 ```
+Example:
+```bash
+python cell_volume_cli.py 50 60 25 10 3000
+```
 
 ## Running Tests
 pytest
@@ -45,8 +49,8 @@ pytest
 
 I used AI to:
 - Refactor code and separate calculation logic into `calc_logic.py`
-- Add error handling and edge case checks
-- Write test cases for the calculation logic
+- Improve error checking and input validation
+- Write and refine pytest test cases
 
 Prompts included:
 - "Refactor my cell volume calculation into a separate module and add error handling"
