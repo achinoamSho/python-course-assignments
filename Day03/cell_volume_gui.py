@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from tkinter import simpledialog
-from cell_volume_calc import calculate_volume
+from calc_logic import calculate_volume
 
 # Plate info: area (cm²) and final culture volume (µL)
 plates = {
