@@ -25,28 +25,10 @@ This API returns JSON with card details, including image URLs, which my program 
 
 ## Files in this folder
 
-- `optcg_logic.py`  
-  Business logic module. Contains functions that:
-  - Call the OPTCG API and return parsed JSON data:
-    - `get_card_data(card_id: str) -> list[dict]`
-  - Save card data as pretty-printed JSON:
-    - `save_card_json(card_id, data, output_dir="onepiece_cards")`
-  - Download card images from the API’s image URLs:
-    - `download_card_images(data, output_dir="onepiece_cards/images")`
-  This module **does not** do any user interaction (no `input()` or `print()`).
-
-- `optcg_gui.py`  
-  GUI (User Interface) built with `tkinter` that:
-  - Displays a window with:
-    - Text field for the card ID
-    - Checkbox “Download images”
-    - “Fetch card” button
-    - Scrollable text area for the results
-  - Uses the functions from `optcg_logic.py` to:
-    - Fetch card data
-    - Save JSON
-    - Optionally download images
-  All user interaction (inputs, buttons, pop-ups) is here.
+| File | Purpose |
+|------|---------|
+| `optcg_logic.py` | Business logic: talks to the OPTCG API, saves JSON and images. No UI code. |
+| `optcg_gui.py` | Tkinter GUI: text field, checkbox, button, and results window. Uses `optcg_logic.py`. |
 
 ---
 
@@ -84,6 +66,12 @@ To install the Python packages (from any terminal):
 ```bash
 python -m pip install requests pytest
 ```
+Start the program:
+
+```bash
+python optcg_gui.py
+```
+
 ##  AI
 
 I used ChatGPT (OpenAI, GPT-5.1) to help with this assignment. The AI helped me:
