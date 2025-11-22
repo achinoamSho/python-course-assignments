@@ -63,7 +63,7 @@ class OnePieceGUI:
         top_frame = tk.Frame(root)
         top_frame.pack(padx=10, pady=10, fill="x")
 
-        tk.Label(top_frame, text="Card ID (e.g. OP05-199):").pack(side="left")
+        tk.Label(top_frame, text="Card ID (should look like OP##-###, e.g. OP05-199):").pack(side="left")
 
         self.card_id_var = tk.StringVar()
         self.entry = tk.Entry(top_frame, textvariable=self.card_id_var, width=20)
@@ -99,7 +99,7 @@ class OnePieceGUI:
         card_id = self.card_id_var.get().strip()
         if not card_id:
             messagebox.showwarning(
-                "Missing input", "Please enter a card ID, e.g. OP01-001."
+                "Missing input", "Please enter a card ID, it IDs should look like OP##-### e.g. OP05-199."
             )
             return
 
