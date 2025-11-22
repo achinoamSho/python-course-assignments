@@ -83,3 +83,13 @@ To install the Python packages (from any terminal):
 
 ```bash
 python -m pip install requests pytest
+```
+##  AI
+
+I used ChatGPT (OpenAI, GPT-5.1) to help with this assignment. The AI helped me:
+
+- Design the separation between business logic (`optcg_logic.py`) and the graphical user interface (`optcg_gui.py`).
+- Write and refine the initial versions of these two files.
+- Understand how relative paths and `.gitignore` work for keeping downloaded data (JSON + images) out of the git repository.
+
+I reviewed and adapted the generated code and text to match my local setup (using `pip` instead of `uv`) and the course requirements.
