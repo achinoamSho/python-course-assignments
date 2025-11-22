@@ -1,30 +1,57 @@
-# Cell Culture Calculator
+# Cell Culture Volume Calculator - Day03
 
-I wanted to calculate how much cell suspension to transfer from one culture plate to another based on the desired confluency and plate sizes. I often work in the tissue culture room, so I made this tool to make my lab mates’ (and my own) life easier.
+This project calculates how much volume to take from a source plate of cultured cells to reach a desired confluency in a destination plate. It includes both a **GUI** and a **CLI** interface.
 
 ## Features
-- 3 input methods:
-  - Command-line (CLI)
-  - Interactive (input)
-  - GUI (Tkinter), also Validates user input, and includes preset plate sizes
+- Input source and destination plate types (or custom plates)
+- Input current and desired confluency (%)
+- Calculates volume to take and amount of fresh media to add
+- Error handling for impossible volumes or invalid inputs
+- Tested calculation logic with `pytest`
 
-## Calculation
-$\text{Volume to take} = V_\text{current} \cdot \frac{C_\text{desired} \cdot A_\text{destination}}{C_\text{current} \cdot A_\text{current}}$
+## Installation
 
-**Where:**
-- **C** = Confluency (%)
-- **A** = Area (cm²)
-- **V** = Volume (mL)
+1. Clone the repository:
+```bash
+git clone https://github.com/achinoamSho/python-course-assignments.git
+cd python-course-assignments/Day03
+```
+2. Install dependencies:
+```bash
+pip install pytest
+```
 
-## AI 
-I used ChatGPT (GPT-5) to assist with:
-- Writing the GUI using `tkinter`
-- Debugging error handling
+**Dependencies used**:
+- `pytest` (for testing)
+- `tkinter` (built-in for GUI)
+- No additional 3rd-party library was found for the calculation logic.
 
-### Prompts used
-> "I want to use GUI for calculating the volume I need to take from a plate with cultured cells by certain confluency I'm aiming for.."
+## Running the Program
 
-> "Could you improve the GUI to make it easier to use, with dropdown menus for plate sizes?"
+**GUI**:
+```bash
+python cell_volume_gui.py
+```
 
-> "I don’t want any pre-filled values when the program opens, can we make the fields empty instead?" 
+**CLI**:
+```bash
+python cell_volume_cli.py <current_conf> <current_area> <desired_conf> <desired_area> <final_vol>
+```
+Example:
+```bash
+python cell_volume_cli.py 50 60 25 10 3000
+```
 
+## Running Tests
+pytest
+
+## AI Usage
+
+I used AI to:
+- Refactor code and separate calculation logic into `calc_logic.py`
+- Improve error checking and input validation
+- Write and refine pytest test cases
+
+Prompts included:
+- "Refactor my cell volume calculation into a separate module and add error handling"
+- "Write pytest tests for my calculation function with edge cases"
