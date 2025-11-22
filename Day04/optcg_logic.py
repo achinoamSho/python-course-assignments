@@ -16,6 +16,11 @@ import requests
 BASE_URL = "https://optcgapi.com/api"
 
 
+class CardNotFoundError(Exception):
+    """Raised when the OPTCG API returns 404 for a card ID."""
+    pass
+
+
 def get_card_data(card_id: str) -> List[Dict[str, Any]]:
     """
     Fetch card data for a given card ID, e.g. 'OP01-001'.
@@ -29,6 +34,13 @@ def get_card_data(card_id: str) -> List[Dict[str, Any]]:
 
     url = f"{BASE_URL}/sets/card/{normalized}/"
     response = requests.get(url, timeout=10)
+
+    # Give a clear error if the card ID doesn't exist
+    if response.status_code == 404:
+        raise CardNotFoundError(
+            f"Card ID '{normalized}' was not found in the OPTCG API."
+        )
+
     response.raise_for_status()
 
     data = response.json()
