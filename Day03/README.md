@@ -18,13 +18,13 @@ cd python-course-assignments/Day03
 ```
 2. Install dependencies:
 ```bash
-pip install pytest
+pip install pytest click
 ```
 
 **Dependencies used**:
 - `pytest` (for testing)
+- `click` (for improved CLI argument handling and automatic help generation)
 - `tkinter` (built-in for GUI)
-- No additional 3rd-party library was found for the calculation logic.
 
 ## Running the Program
 
@@ -35,12 +35,61 @@ python cell_volume_gui.py
 
 **CLI**:
 ```bash
-python cell_volume_cli.py <current_conf> <current_area> <desired_conf> <desired_area> <final_vol>
+python cell_volume_cli.py <current_conf> <current_area> <desired_conf> <dest_area> <current_vol>
 ```
-Example:
+
+To see detailed help with all argument descriptions, use the `--help` flag:
+```bash
+python cell_volume_cli.py --help
+```
+
+### CLI Arguments
+
+The CLI requires 5 arguments (all numeric values):
+
+1. **`current_conf`** (float): Current confluency (%) of the source plate  
+   - Example: `50` (for 50% confluency)
+   - Must be greater than 0
+   - Represents the percentage of the plate surface covered by cells
+
+2. **`current_area`** (float): Surface area (cm²) of the source plate  
+   - Example: `60` (for a 10 cm plate)
+   - Must be greater than 0
+   - Common plate sizes:
+     - 96-well: 0.33 cm²
+     - 24-well: 2 cm²
+     - 12-well: 4 cm²
+     - 6-well: 10 cm²
+     - 10 cm dish: 60 cm²
+
+3. **`desired_conf`** (float): Target confluency (%) for the destination plate  
+   - Example: `25` (for 25% confluency)
+   - Must be greater than 0
+   - The percentage of confluency you want to achieve in the destination plate
+
+4. **`dest_area`** (float): Surface area (cm²) of the destination plate  
+   - Example: `10` (for a 6-well plate)
+   - Must be greater than 0
+   - Same common values as `current_area` (see above)
+
+5. **`current_vol`** (float): Total volume (µL) in the source plate after trypsinization  
+   - Example: `3000` (for 3000 µL)
+   - Must be greater than 0
+   - The total volume of cell suspension in the source plate
+
+### CLI Examples
+
+Basic example (10 cm plate to 6-well plate):
 ```bash
 python cell_volume_cli.py 50 60 25 10 3000
 ```
+This calculates the volume to take from a 10 cm plate (60 cm²) with 50% confluency to achieve 25% confluency in a 6-well plate (10 cm²), assuming 3000 µL total volume in the source plate.
+
+Example with smaller plates (96-well to 24-well):
+```bash
+python cell_volume_cli.py 80 0.33 40 2 200
+```
+This calculates the volume needed when transferring from a 96-well plate at 80% confluency to a 24-well plate at 40% confluency.
 
 ## Running Tests
 pytest
