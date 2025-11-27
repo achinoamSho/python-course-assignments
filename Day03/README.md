@@ -5,7 +5,7 @@ This project calculates how much volume to take from a source plate of cultured 
 ## Features
 - Input source and destination plate types (or custom plates)
 - Input current and desired confluency (%)
-- Calculates volume to take and amount of fresh media to add
+- Calculates volume to take from the source plate (GUI also shows how much fresh media to add)
 - Error handling for impossible volumes or invalid inputs
 - Tested calculation logic with `pytest`
 
