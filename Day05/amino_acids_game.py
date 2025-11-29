@@ -1,7 +1,5 @@
 import random
 
-# Basic amino-acid table with properties.
-# You can simplify or tweak if you want.
 AMINO_ACIDS = {
     "A": {"name": "Alanine",       "charge": "neutral", "polarity": "nonpolar", "aromatic": "non-aromatic"},
     "R": {"name": "Arginine",      "charge": "positive", "polarity": "polar",   "aromatic": "non-aromatic"},
