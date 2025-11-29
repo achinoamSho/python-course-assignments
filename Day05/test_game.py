@@ -1,5 +1,4 @@
-import game
-
+import amino_acids_game as game
 
 def test_get_property_charge_positive():
     assert game.get_property("K", "charge") == "positive"
