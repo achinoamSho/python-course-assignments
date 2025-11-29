@@ -16,11 +16,9 @@ This repository contains Python course assignments organized by day. When assist
 - Follow PEP 8 style guidelines
 - Use descriptive variable names that reflect their purpose
 - Include docstrings for functions and classes
-- Add type hints where appropriate
 - Keep functions focused on a single responsibility
 
 ### Error Handling
-- Always validate user inputs
 - Raise appropriate exceptions (e.g., `ValueError` for invalid inputs)
 - Provide clear, helpful error messages
 - Test error cases in test files
@@ -64,7 +62,6 @@ This repository contains Python course assignments organized by day. When assist
 ## AI Assistance Guidelines
 
 When helping with code:
-- **Explain** the approach, don't just provide solutions
 - Suggest improvements that teach best practices
 - Encourage separation of concerns (logic vs. UI)
 - Help write tests to ensure code correctness
