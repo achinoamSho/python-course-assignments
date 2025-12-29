@@ -37,12 +37,6 @@ Install the required packages using pip:
 pip install pandas numpy matplotlib jupyter
 ```
 
-Or if you're using a requirements file:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## How to Run
 
 ### Option 1: Using Jupyter Notebook
