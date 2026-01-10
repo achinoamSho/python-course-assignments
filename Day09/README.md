@@ -1,4 +1,4 @@
-# Assignment Submission Analyzer
+# Assignment Submission Analysis
 
 This program analyzes assignment submission data from `subjects.txt` and generates comprehensive reports and visualizations.
 
@@ -59,7 +59,7 @@ Day09/
 
 2. **On-Time vs Late Submissions per Day**: Stacked bar chart comparing on-time (green) and late (red) submissions for each assignment. Shows both counts and percentages with legend positioned on the right.
 
-3. **Submission Time Patterns: Daytime vs Nighttime by Assignment**: Stacked bar chart showing when students submit - during daytime hours (6 AM - 6 PM) vs nighttime hours (7 PM - 5 AM) for each assignment. Helps identify "day owls" vs "night owls" among students.
+3. **Submission Time Patterns: Daytime vs Nighttime by Assignment**: Stacked bar chart showing when students submit - during daytime hours (6 AM - 6 PM) vs nighttime hours (7 PM - 5 AM) for each assignment.
 
 4. **Distribution of Submission Time Relative to Deadline**: Density plot (filled with color) showing the distribution of when students submit relative to assignment deadlines. Negative values indicate submissions before the deadline, positive values indicate late submissions. Includes a red vertical line marking the deadline.
 
