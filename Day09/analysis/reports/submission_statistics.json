@@ -1,0 +1,100 @@
+{
+  "overall_statistics": {
+    "total_submissions": 202,
+    "unique_students": 33,
+    "unique_assignments": 8,
+    "total_late": 164,
+    "late_percentage": 81.1881188118812,
+    "on_time_percentage": 18.81188118811881
+  },
+  "statistics_by_assignment": [
+    {
+      "assignment_day": "day01",
+      "total_submissions": 29,
+      "late_count": 29,
+      "avg_hours_after_deadline": 145.04850574712643,
+      "median_hours_after_deadline": 94.31333333333333,
+      "min_hours_after_deadline": 64.46527777777777,
+      "max_hours_after_deadline": 444.5036111111111,
+      "on_time_count": 0,
+      "late_percentage": 100.0
+    },
+    {
+      "assignment_day": "day02",
+      "total_submissions": 30,
+      "late_count": 30,
+      "avg_hours_after_deadline": 146.5737037037037,
+      "median_hours_after_deadline": 137.78152777777777,
+      "min_hours_after_deadline": 46.2425,
+      "max_hours_after_deadline": 274.5936111111111,
+      "on_time_count": 0,
+      "late_percentage": 100.0
+    },
+    {
+      "assignment_day": "day03",
+      "total_submissions": 22,
+      "late_count": 22,
+      "avg_hours_after_deadline": 235.36601010101012,
+      "median_hours_after_deadline": 140.67097222222222,
+      "min_hours_after_deadline": 83.17361111111111,
+      "max_hours_after_deadline": 979.2769444444444,
+      "on_time_count": 0,
+      "late_percentage": 100.0
+    },
+    {
+      "assignment_day": "day04",
+      "total_submissions": 29,
+      "late_count": 29,
+      "avg_hours_after_deadline": 202.57310344827584,
+      "median_hours_after_deadline": 138.20416666666668,
+      "min_hours_after_deadline": 137.63777777777779,
+      "max_hours_after_deadline": 811.2769444444444,
+      "on_time_count": 0,
+      "late_percentage": 100.0
+    },
+    {
+      "assignment_day": "day05",
+      "total_submissions": 28,
+      "late_count": 20,
+      "avg_hours_after_deadline": 132.72184523809523,
+      "median_hours_after_deadline": 161.42069444444445,
+      "min_hours_after_deadline": -5.6675,
+      "max_hours_after_deadline": 849.8836111111111,
+      "on_time_count": 8,
+      "late_percentage": 71.43
+    },
+    {
+      "assignment_day": "day06",
+      "total_submissions": 27,
+      "late_count": 25,
+      "avg_hours_after_deadline": 255.46152263374486,
+      "median_hours_after_deadline": 264.11611111111114,
+      "min_hours_after_deadline": -6.079722222222222,
+      "max_hours_after_deadline": 681.6472222222222,
+      "on_time_count": 2,
+      "late_percentage": 92.59
+    },
+    {
+      "assignment_day": "day08",
+      "total_submissions": 23,
+      "late_count": 9,
+      "avg_hours_after_deadline": -63.528140096618365,
+      "median_hours_after_deadline": -7.508055555555556,
+      "min_hours_after_deadline": -346.75111111111113,
+      "max_hours_after_deadline": 107.54027777777777,
+      "on_time_count": 14,
+      "late_percentage": 39.13
+    },
+    {
+      "assignment_day": "final_project",
+      "total_submissions": 14,
+      "late_count": 0,
+      "avg_hours_after_deadline": -374.39261904761906,
+      "median_hours_after_deadline": -363.7234722222222,
+      "min_hours_after_deadline": -699.4652777777778,
+      "max_hours_after_deadline": -180.82472222222222,
+      "on_time_count": 14,
+      "late_percentage": 0.0
+    }
+  ]
+}

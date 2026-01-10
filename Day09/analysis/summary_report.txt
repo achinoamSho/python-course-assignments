@@ -1,0 +1,367 @@
+================================================================================
+ASSIGNMENT SUBMISSION ANALYSIS - SUMMARY STATISTICS
+================================================================================
+
+Total Submissions: 202
+Unique Students: 33
+Unique Assignments: 8
+Late Submissions: 164 (81.2%)
+On-Time Submissions: 38 (18.8%)
+
+================================================================================
+STATISTICS BY ASSIGNMENT
+================================================================================
+
+Day01:
+  Total Submissions: 29
+  Late: 29 (100.0%)
+  On-Time: 0 (0.0%)
+  Average Days Late: 6.0
+  Maximum Days Late: 18.5
+
+Day02:
+  Total Submissions: 30
+  Late: 30 (100.0%)
+  On-Time: 0 (0.0%)
+  Average Days Late: 6.1
+  Maximum Days Late: 11.4
+
+Day03:
+  Total Submissions: 22
+  Late: 22 (100.0%)
+  On-Time: 0 (0.0%)
+  Average Days Late: 9.8
+  Maximum Days Late: 40.8
+
+Day04:
+  Total Submissions: 29
+  Late: 29 (100.0%)
+  On-Time: 0 (0.0%)
+  Average Days Late: 8.4
+  Maximum Days Late: 33.8
+
+Day05:
+  Total Submissions: 28
+  Late: 20 (71.4%)
+  On-Time: 8 (28.6%)
+  Average Days Late: 7.8
+  Maximum Days Late: 35.4
+
+Day06:
+  Total Submissions: 27
+  Late: 25 (92.6%)
+  On-Time: 2 (7.4%)
+  Average Days Late: 11.5
+  Maximum Days Late: 28.4
+
+Day08:
+  Total Submissions: 23
+  Late: 9 (39.1%)
+  On-Time: 14 (60.9%)
+  Average Days Late: 4.1
+  Maximum Days Late: 4.5
+
+Final Project:
+  Total Submissions: 14
+  Late: 0 (0.0%)
+  On-Time: 14 (100.0%)
+
+================================================================================
+MISSING SUBMISSIONS
+================================================================================
+
+Day01 - Missing (4 students):
+  - David Ganem
+  - Einav Litvak
+  - Lior Batat
+  - Rachel Steinitz Eliyahu
+
+Day02 - Missing (3 students):
+  - Guy Saller
+  - Noga Levinson
+  - Rachel Steinitz Eliyahu
+
+Day03 - Missing (12 students):
+  - Achinoam Shoham
+  - Arad Zulti
+  - Evyatar Shaked
+  - Guy Saller
+  - Guy Shemesh
+  - Hallel Azulai
+  - Lior Batat
+  - Noga Levinson
+  - Rachel Steinitz Eliyahu
+  - Rachel Steinitz-eliyahu
+  - Sharonelle Sasson
+  - Sriashwin Sridharan
+
+Day04 - Missing (5 students):
+  - Guy Saller
+  - Lior Batat
+  - Noga Levinson
+  - Rachel Steinitz-eliyahu
+  - Sharonelle Sasson
+
+Day05 - Missing (5 students):
+  - Guy Saller
+  - Lior Batat
+  - Noga Levinson
+  - Rachel Steinitz Eliyahu
+  - Sharonelle Sasson
+
+Day06 - Missing (6 students):
+  - Einav Litvak
+  - Guy Saller
+  - Lior Batat
+  - Noga Levinson
+  - Rachel Steinitz Eliyahu
+  - Sharonelle Sasson
+
+Day08 - Missing (10 students):
+  - Adib Masharqa
+  - Anvita Pant
+  - Ariel Hindi
+  - Guy Saller
+  - Hallel Azulai
+  - Lior Batat
+  - Noga Levinson
+  - Rachel Steinitz Eliyahu
+  - Rachel Steinitz-eliyahu
+  - Sharonelle Sasson
+
+Final Project - Missing (19 students):
+  - Adi Moses
+  - Adib Masharqa
+  - Anvita Pant
+  - Ariel Hindi
+  - Avigail Yariv
+  - Daniela Huppert Revach
+  - David Ganem
+  - Guy Saller
+  - Hallel Azulai
+  - Lior Batat
+  - Noga Levinson
+  - Noya Levy
+  - Rachel Steinitz Eliyahu
+  - Rachel Steinitz-eliyahu
+  - Sana Khatib
+  - Sharonelle Sasson
+  - Shelly Gilad
+  - Shoshana Sernik
+  - Yana Lerner
+
+================================================================================
+LATE SUBMISSIONS DETAILS
+================================================================================
+
+Day01 - Late Submissions (29):
+  - Rony Holdengreber: 18.5 days late
+  - Raz Leibson: 14.5 days late
+  - Sharonelle Sasson: 13.7 days late
+  - Shoshana Sernik: 13.7 days late
+  - Ariel Hindi: 12.5 days late
+  - Adib Masharqa: 12.5 days late
+  - Arad Zulti: 4.7 days late
+  - Guy Shemesh: 4.0 days late
+  - Shelly Gilad: 3.9 days late
+  - Hallel Azulai: 3.9 days late
+  - Avigail Yariv: 3.9 days late
+  - Noam Ariel: 3.9 days late
+  - Sana Khatib: 3.9 days late
+  - Neta Hanuka: 3.9 days late
+  - Rachel Steinitz-eliyahu: 3.9 days late
+  - Sriashwin Sridharan: 3.9 days late
+  - Achinoam Shoham: 3.9 days late
+  - Anvita Pant: 3.9 days late
+  - Noya Levy: 3.9 days late
+  - Lihi Bolokan: 3.9 days late
+  - Guy Saller: 3.9 days late
+  - Aileen Cohen: 3.9 days late
+  - Yana Lerner: 3.9 days late
+  - Noga Levinson: 3.9 days late
+  - Adi Moses: 3.9 days late
+  - Daniela Huppert Revach: 3.9 days late
+  - Inbar Perets: 3.9 days late
+  - Evyatar Shaked: 3.9 days late
+  - Guy Vosco: 2.7 days late
+
+Day02 - Late Submissions (30):
+  - Aileen Cohen: 11.4 days late
+  - Raz Leibson: 10.5 days late
+  - Rony Holdengreber: 10.5 days late
+  - Neta Hanuka: 10.5 days late
+  - Sana Khatib: 10.4 days late
+  - Sharonelle Sasson: 10.0 days late
+  - David Ganem: 5.9 days late
+  - Arad Zulti: 5.9 days late
+  - Inbar Perets: 5.8 days late
+  - Rachel Steinitz-eliyahu: 5.8 days late
+  - Sriashwin Sridharan: 5.8 days late
+  - Lihi Bolokan: 5.8 days late
+  - Shoshana Sernik: 5.7 days late
+  - Hallel Azulai: 5.7 days late
+  - Shelly Gilad: 5.7 days late
+  - Lior Batat: 5.7 days late
+  - Yana Lerner: 5.7 days late
+  - Noya Levy: 4.6 days late
+  - Guy Vosco: 4.6 days late
+  - Guy Shemesh: 4.6 days late
+  - Evyatar Shaked: 4.6 days late
+  - Einav Litvak: 4.5 days late
+  - Daniela Huppert Revach: 4.5 days late
+  - Avigail Yariv: 4.5 days late
+  - Ariel Hindi: 4.5 days late
+  - Anvita Pant: 4.5 days late
+  - Adib Masharqa: 4.5 days late
+  - Adi Moses: 4.5 days late
+  - Achinoam Shoham: 4.5 days late
+  - Noam Ariel: 1.9 days late
+
+Day03 - Late Submissions (22):
+  - Einav Litvak: 40.8 days late
+  - Einav Litvak: 27.0 days late
+  - Sana Khatib: 19.7 days late
+  - Shoshana Sernik: 19.7 days late
+  - Noya Levy: 13.4 days late
+  - Shelly Gilad: 12.7 days late
+  - Anvita Pant: 7.9 days late
+  - Adib Masharqa: 7.7 days late
+  - Daniela Huppert Revach: 5.9 days late
+  - David Ganem: 5.9 days late
+  - Aileen Cohen: 5.9 days late
+  - Ariel Hindi: 5.9 days late
+  - Adi Moses: 5.9 days late
+  - Avigail Yariv: 5.9 days late
+  - Guy Vosco: 5.9 days late
+  - Inbar Perets: 4.6 days late
+  - Raz Leibson: 3.6 days late
+  - Neta Hanuka: 3.5 days late
+  - Noam Ariel: 3.5 days late
+  - Yana Lerner: 3.5 days late
+  - Lihi Bolokan: 3.5 days late
+  - Rony Holdengreber: 3.5 days late
+
+Day04 - Late Submissions (29):
+  - Einav Litvak: 33.8 days late
+  - Einav Litvak: 20.0 days late
+  - Sana Khatib: 19.8 days late
+  - Guy Vosco: 12.6 days late
+  - Anvita Pant: 12.6 days late
+  - Avigail Yariv: 12.6 days late
+  - Shoshana Sernik: 6.0 days late
+  - Rachel Steinitz Eliyahu: 6.0 days late
+  - Lihi Bolokan: 6.0 days late
+  - Sriashwin Sridharan: 6.0 days late
+  - Neta Hanuka: 6.0 days late
+  - Raz Leibson: 5.8 days late
+  - Inbar Perets: 5.8 days late
+  - Hallel Azulai: 5.8 days late
+  - Noam Ariel: 5.8 days late
+  - Yana Lerner: 5.8 days late
+  - Rony Holdengreber: 5.8 days late
+  - Achinoam Shoham: 5.7 days late
+  - Adi Moses: 5.7 days late
+  - Adib Masharqa: 5.7 days late
+  - Aileen Cohen: 5.7 days late
+  - Arad Zulti: 5.7 days late
+  - Ariel Hindi: 5.7 days late
+  - Daniela Huppert Revach: 5.7 days late
+  - David Ganem: 5.7 days late
+  - Evyatar Shaked: 5.7 days late
+  - Guy Shemesh: 5.7 days late
+  - Noya Levy: 5.7 days late
+  - Shelly Gilad: 5.7 days late
+
+Day05 - Late Submissions (20):
+  - Einav Litvak: 35.4 days late
+  - Adib Masharqa: 27.8 days late
+  - Ariel Hindi: 7.4 days late
+  - Guy Vosco: 7.4 days late
+  - Evyatar Shaked: 7.4 days late
+  - David Ganem: 7.4 days late
+  - Avigail Yariv: 6.7 days late
+  - Adi Moses: 6.7 days late
+  - Achinoam Shoham: 6.7 days late
+  - Noya Levy: 6.7 days late
+  - Aileen Cohen: 6.7 days late
+  - Guy Shemesh: 6.7 days late
+  - Anvita Pant: 6.7 days late
+  - Daniela Huppert Revach: 6.7 days late
+  - Arad Zulti: 6.7 days late
+  - Sana Khatib: 0.4 days late
+  - Yana Lerner: 0.4 days late
+  - Neta Hanuka: 0.4 days late
+  - Shelly Gilad: 0.4 days late
+  - Rony Holdengreber: 0.4 days late
+
+Day06 - Late Submissions (25):
+  - Shoshana Sernik: 28.4 days late
+  - David Ganem: 28.4 days late
+  - Anvita Pant: 22.5 days late
+  - Hallel Azulai: 20.9 days late
+  - Adib Masharqa: 20.8 days late
+  - Evyatar Shaked: 14.6 days late
+  - Adi Moses: 11.0 days late
+  - Guy Vosco: 11.0 days late
+  - Achinoam Shoham: 11.0 days late
+  - Guy Shemesh: 11.0 days late
+  - Avigail Yariv: 11.0 days late
+  - Aileen Cohen: 11.0 days late
+  - Noya Levy: 11.0 days late
+  - Ariel Hindi: 11.0 days late
+  - Daniela Huppert Revach: 11.0 days late
+  - Arad Zulti: 11.0 days late
+  - Sana Khatib: 6.8 days late
+  - Yana Lerner: 6.8 days late
+  - Raz Leibson: 6.8 days late
+  - Sriashwin Sridharan: 6.8 days late
+  - Shelly Gilad: 6.8 days late
+  - Neta Hanuka: 6.8 days late
+  - Rony Holdengreber: 0.5 days late
+  - Rachel Steinitz-eliyahu: 0.5 days late
+  - Noam Ariel: 0.5 days late
+
+Day08 - Late Submissions (9):
+  - Yana Lerner: 4.5 days late
+  - Sriashwin Sridharan: 4.5 days late
+  - Noam Ariel: 4.4 days late
+  - Shelly Gilad: 4.4 days late
+  - Raz Leibson: 4.4 days late
+  - Rony Holdengreber: 4.4 days late
+  - Lihi Bolokan: 4.4 days late
+  - Shoshana Sernik: 3.9 days late
+  - Einav Litvak: 1.7 days late
+
+================================================================================
+TITLE FORMAT POPULARITY
+================================================================================
+Day02: 20 (9.9%)
+Day06: 19 (9.41%)
+Day04: 18 (8.91%)
+Day05: 18 (8.91%)
+Day03: 17 (8.42%)
+Day08: 15 (7.43%)
+Day01: 11 (5.45%)
+Day1: 10 (4.95%)
+Final Project: 9 (4.46%)
+day05: 8 (3.96%)
+day04: 8 (3.96%)
+day08: 6 (2.97%)
+Final project: 5 (2.48%)
+day06: 5 (2.48%)
+day03: 5 (2.48%)
+Day 01: 4 (1.98%)
+Day 02: 3 (1.49%)
+Day 06: 3 (1.49%)
+Day 1: 3 (1.49%)
+day02: 2 (0.99%)
+Day 2: 2 (0.99%)
+Day2: 2 (0.99%)
+Day 05: 1 (0.5%)
+day 08: 1 (0.5%)
+Day 08: 1 (0.5%)
+Day 04: 1 (0.5%)
+day 03: 1 (0.5%)
+Day 03: 1 (0.5%)
+day 05: 1 (0.5%)
+day 01: 1 (0.5%)
